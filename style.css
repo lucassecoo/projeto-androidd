@@ -1,0 +1,151 @@
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #35cf7a;
+}
+
+body > picture{
+    margin: 10px 50px 10px 50px;
+}
+
+.cabeca{
+    text-align: center;
+}
+
+menu{
+    background-image: linear-gradient(to top, #1A5C38, #25824E, #35BF73);
+    color: white;
+    margin: -8px -7px 0px -8px;
+    padding: 1px;
+    border: 0px;
+    box-shadow: 1px 1px 3px 1px black;
+    text-shadow: 1px  1px black;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav > a{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active{
+    color: #5305a1;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.div{
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+}
+
+.caixa{
+    background-color: white;
+    box-shadow: 1px 3px 5px black;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 8px;
+    margin: auto;
+    border: 0px 0px 0px 0px;
+    max-width: 1000px;
+    min-width: 300px;
+
+}
+
+.itens{
+    list-style-type: "\2713";
+    text-decoration: underline;
+    
+}
+
+div{
+    display: inline-block;
+}
+
+#lista1{
+    margin-right: 300px;
+}
+
+article{
+    background-color:#34c575 ;
+    border-radius: 10px
+    
+}
+
+#article{
+    margin: 10px 10px 10px 10px;
+    padding: 2px 8px 1px 6px;
+    box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.66);
+}
+
+p{
+    text-indent: 20px;
+}
+
+h2{
+    background-image: linear-gradient(to right, #CDEEDB, #DFF5E9, #D1EFDF, white);
+    color: #135531;
+    font-family: 'idroid';
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    color: #135531;
+    font-family: 'idroid';
+}
+
+footer{
+    background-color:#1A5C38 ;
+    margin: 1px -8px -8px -8px; 
+    padding: 1px 0px 1px 1px; 
+    border: 0px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: #1A5C38;
+    text-decoration: none;
+}
+
+.cabecamenu:hover { 
+    background-color: #c1e8d3d1;
+    border-radius: 2px;
+}
+
+.fotos{
+    width: 100%;
+}
+
+main img{
+    width: 100%;
+}
+
+div.videos{
+    background-color: #1A5C38 ;
+    margin: -11px -12px 1px -8px;
+    padding: 10px 1006px 10px 10px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.videos > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
